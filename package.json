@@ -9,6 +9,7 @@
     "gulp-changed": "^1.0.0",
     "gulp-csso": "^0.2.9",
     "gulp-flatten": "^0.0.2",
+    "gulp-gh-pages": "^0.4.0",
     "gulp-if": "^1.2.1",
     "gulp-imagemin": "^1.0.0",
     "gulp-jshint": "^1.6.3",
