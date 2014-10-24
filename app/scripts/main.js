@@ -58,7 +58,8 @@ function getIssues(spec, cb) {
             cb(spec);
         },
         function(error) {
-            console.error("Failed!", error);
+            spec.error = error;
+            cb(spec);
         }
     );
 }
