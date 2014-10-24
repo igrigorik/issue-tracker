@@ -187,7 +187,7 @@ gulp.task('pagespeed', pagespeed.bind(null, {
   strategy: 'mobile'
 }));
 
-gulp.task('deploy', function () {
+gulp.task('deploy', ['default'], function () {
     return gulp.src('./dist/**/*')
         .pipe(deploy({}));
 });
