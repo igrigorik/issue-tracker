@@ -123,7 +123,7 @@ var specs = [
 
 specs.forEach(function(spec){
   getIssues(spec, function(issues) {
-    console.dir(issues)
+    // console.dir(issues)
     main.innerHTML += template(spec);
   })
 })
