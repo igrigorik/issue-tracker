@@ -119,7 +119,12 @@ var specs = [
   {name: 'Frame Timing', repo: 'w3c/frame-timing'},
   {name: 'Page Visibility', repo: 'w3c/page-visibility'},
   {name: 'Beacon', repo: 'w3c/beacon'},
-  {name: 'User Timing', repo: 'w3c/user-timing'}
+  {name: 'User Timing', repo: 'w3c/user-timing'},
+  {name: 'Network Error Logging', repo: 'w3c/network-error-logging'},
+  {name: 'Preload', repo: 'w3c/preload'},
+  {name: 'High Resolution Time', repo: 'w3c/hr-time'},
+  {name: 'Animation Timing', repo: 'w3c/animation-timing'},
+  {name: 'Server Timing', repo: 'w3c/server-timing'}
 ]
 
 specs.forEach(function(spec){
